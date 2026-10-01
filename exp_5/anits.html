@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ANITS Clone</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+background:#f4f4f4;
+}
+
+/*---------------- TOP BAR ----------------*/
+
+.top-bar{
+background:#08192d;
+color:white;
+display:flex;
+justify-content:center;
+gap:35px;
+padding:8px;
+font-size:12px;
+font-weight:bold;
+}
+.header{
+background:white;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 60px;
+}
+
+/* Logo */
+
+.logo{
+display:flex;
+align-items:center;
+margin-left:100px;
+}
+
+.logo img{
+width:65px;
+margin-right:35px;
+}
+
+/* College Title */
+
+.title{
+display:flex;
+align-items:baseline;
+gap:8px;
+}
+
+.title h3{
+font-size:20px;
+font-weight:bold;
+color:#ef5a00;
+white-space:nowrap;
+}
+
+.title .auto{
+font-size:12px;
+font-weight:bold;
+color:#ef5a00;
+}
+
+/* Right Side */
+
+.right-section{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+.badges img{
+width:65px;
+margin-right:10px;
+}
+.contact{
+background:#2c73b6;
+color:white;
+padding:12px 20px;
+border-radius:10px;
+display:flex;
+align-items:center;
+gap:10px;
+font-weight:bold;
+}
+.contact i{
+font-size:30px;
+}
+.contact h2{
+font-size:18px;
+}
+nav{
+background:linear-gradient(to right,#1d3d74,#3d96d8);
+}
+nav ul{
+display:flex;
+justify-content:center;
+list-style:none;
+}
+nav ul li{
+position:relative;
+}
+nav ul li a{
+display:block;
+padding:18px 22px;
+text-decoration:none;
+color:white;
+font-size:12px;
+font-weight:bold;
+}
+nav ul li:hover{
+background:#0d4e86;
+}
+nav ul li ul{
+display:none;
+position:absolute;
+top:100%;
+left:0;
+background:white;
+min-width:220px;
+list-style:none;
+box-shadow:0 5px 10px rgba(0,0,0,.2);
+}
+nav ul li:hover ul{
+display:block;
+}
+nav ul li ul li a{
+color:black;
+padding:6px;
+font-size:6px;
+}
+.notice{
+background:white;
+padding:12px;
+font-size:20px;
+font-weight:bold;
+color:#103f92;
+}
+.linkedin{background:#0077b5;}
+.instagram{background:#e1306c;}
+.facebook{background:#1877f2;}
+.twitter{background:black;}
+.youtube{background:red;}
+.whatsapp{background:#25d366;}
+
+</style>
+</head>
+
+<body>
+
+<div class="top-bar">
+
+<span>College Code : <b>ANIL</b></span>
+
+<span>Email : principal@anits.edu.in</span>
+
+<span>8712005999,7330789893,8712008222 (Admissions)</span>
+
+<span>IIC</span>
+
+<span>E-Learning</span>
+
+</div>
+
+<div class="header">
+
+<div class="logo">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUIfWIP8R-EjO2EMWBbwhWpQrYzeDMqknb-IZJYhJhSw&s=10">
+<div class="title">
+
+<h3>ANIL NEERUKONDA INSTITUTE OF TECHNOLOGY & SCIENCES</h3>
+
+<span class="auto">(AUTONOMOUS)</span>
+
+</div>
+
+<div class="right-section">
+
+<div class="badges">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://anits.org/static/images/auto.webp">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFwx74kCBbDs5PqsFg8p3zgA_R0Z2z1MkRzcV2VjJzow&s=10">
+
+</div>
+</div>
+<div class="contact">
+
+<i class="fa-solid fa-phone"></i>
+
+<div>
+
+Admissions Contact
+
+<h2>8712005999</h2>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<nav>
+
+<ul>
+
+<li>
+<a href="#">About Us</a>
+
+<ul>
+<li><a href="#">Vision</a></li>
+<li><a href="#">Mission</a></li>
+<li><a href="#">Principal</a></li>
+<li><a href="#">Management</a></li>
+</ul>
+
+</li>
+
+<li><a href="#">Admissions</a></li>
+<li><a href="#">Academics</a></li>
+<li><a href="#">Departments</a></li>
+<li><a href="#">R&D</a></li>
+<li><a href="#">IQAC</a></li>
+<li><a href="#">Women Cell</a></li>
+<li><a href="#">Policies</a></li>
+<li><a href="#">Library</a></li>
+<li><a href="#">Training</a></li>
+<li><a href="#">Placements</a></li>
+<li><a href="#">Facilities</a></li>
+
+</ul>
+
+</nav>
+
+<div class="notice">
+
+<marquee>
+
+📢 Submission Deadline : 30-04-2026 |
+📢 JRF Recruitment – Department of ECE |
+📢 Minor Degree in Quantum Technologies |
+📢 Bus Incharges & Schedule Details
+
+</marquee>
+
+</div>
+ <style>
+    .banner{
+    width:100%;
+    overflow:hidden;
+}
+
+.slider{
+    width:100%;
+    overflow:hidden;
+}
+
+.slides{
+    display:flex;
+    width:600%;
+    animation:slide 18s infinite;
+}
+
+.slides img{
+    width:16.666%;
+    height:500px;
+    object-fit:cover;
+    flex-shrink:0;
+}
+
+@keyframes slide{
+    0%,15%{
+        transform:translateX(0%);
+    }
+
+    20%,35%{
+        transform:translateX(-16.666%);
+    }
+
+    40%,55%{
+        transform:translateX(-33.333%);
+    }
+
+    60%,75%{
+        transform:translateX(-50%);
+    }
+
+    80%,95%{
+        transform:translateX(-66.666%);
+    }
+
+    100%{
+        transform:translateX(-83.333%);
+    }
+}
+    </style>
+
+<section class="banner">
+
+    <div class="slider">
+
+        <div class="slides">
+            <img src="banner1.jpg" alt="Banner 1">
+            <img src="banner2.jpg" alt="Banner 2">
+            <img src="banner3.jpg" alt="Banner 3">
+            <img src="bammer4.jpg" alt="Bammer 4">
+            <img src="banner5.jpg" alt="Banner 5">
+            <img src="banner6.jpg" alt="Banner 6">
+        </div>
+
+    </div>
+
+</section>
+<!-- Dots -->
+<div class="dots">
+    <span class="active"></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+
+<!-- Welcome Section -->
+<section class="welcome-section">
+
+    <!-- Left Side Video -->
+    <div class="video-box">
+        <video controls>
+            <source src="chaithu.mp4" type="video/mp4" width="900" height="500"> 
+        </video>
+    </div>
+
+
+    <!-- Right Side Content -->
+    <div class="welcome-content">
+
+        <h2>Welcome to ANITS</h2>
+
+        <p>
+            Anil Neerukonda Institute of Technology & Sciences (ANITS),
+            Visakhapatnam is owned by Megha Engineering and Infrastructure
+            Limited (MEIL) which is one of the top infrastructure and
+            manufacturing company in India with headquarters at Hyderabad.
+            The institute was established in the academic year 2001-02 by
+            Anil Neerukonda Educational Society (ANES) which was founded by
+            Dr. N.B.R. Prasad, an NRI Philanthropist from the USA, with
+            industrialists and eminent educationists in memory of his son
+            Late Anil Neerukonda.
+        </p>
+
+    </div>
+
+</section>
+
+<section class="glance">
+    <h2>ANITS at a Glance</h2>
+
+    <div class="glance-grid">
+
+        <div class="card yellow">
+            <h3>5k+</h3>
+            <p>Active students</p>
+        </div>
+
+        <div class="card green">
+            <h3>20k+</h3>
+            <p>Alumni</p>
+        </div>
+
+        <div class="card red">
+            <h3>390</h3>
+            <p>Teaching staff</p>
+        </div>
+
+        <div class="card yellow">
+            <h3>50%+</h3>
+            <p>Faculty with PhD in most disciplines</p>
+        </div>
+
+        <div class="card green">
+            <h3>5k+</h3>
+            <p>Publications</p>
+        </div>
+
+        <div class="card red">
+            <h3>37</h3>
+            <p>H-index</p>
+        </div>
+
+        <div class="card yellow">
+            <h3>50+</h3>
+            <p>Research projects</p>
+        </div>
+
+        <div class="card green">
+            <h3>200+</h3>
+            <p>Patents</p>
+        </div>
+
+    </div>
+</section>
+<style>
+
+/* ---------------- DOTS ---------------- */
+
+/* Dots */
+.dots{
+    text-align:center;
+    margin:10px 0 20px;
+}
+
+.dots span{
+    display:inline-block;
+    width:9px;
+    height:9px;
+    background:#ddd;
+    border-radius:50%;
+    margin:0 4px;
+}
+
+.dots .active{
+    background:#168fc4;
+}
+
+
+/* Main Welcome Section */
+.welcome-section{
+    width:100%;
+    max-width:1000px;
+    margin:0 auto;
+    padding:10px 0 50px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:35px;
+
+    background:white;
+}
+
+
+/* Video - SMALLER */
+.video-box{
+    width:48%;
+}
+
+.video-box video{
+    width:100%;
+    height:300px;
+    display:block;
+    object-fit:cover;
+}
+
+
+/* Welcome Content */
+.welcome-content{
+    width:45%;
+}
+
+.welcome-content h2{
+    color:#111;
+    font-size:34px;
+    margin-bottom:18px;
+    padding-bottom:8px;
+    border-bottom:3px solid #168fc4;
+    display:inline-block;
+}
+
+.welcome-content p{
+    font-size:15px;
+    line-height:1.7;
+    text-align:justify;
+    color:#333;
+}
+
+
+/* Mobile */
+@media(max-width:768px){
+
+    .welcome-section{
+        width:90%;
+        flex-direction:column;
+    }
+
+    .video-box,
+    .welcome-content{
+        width:100%;
+    }
+
+    .video-box video{
+        height:280px;
+    }
+
+}
+.glance{
+    width:90%;
+    margin:50px auto;
+    text-align:center;
+}
+
+.glance h2{
+    font-size:42px;
+    font-weight:bold;
+    margin-bottom:30px;
+    display:inline-block;
+    border-bottom:4px solid #1697d2;
+    padding-bottom:8px;
+}
+
+.glance-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.card{
+    border-radius:12px;
+    color:#fff;
+    padding:40px 20px;
+    min-height:170px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.card h3{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.card p{
+    font-size:18px;
+    text-align:center;
+}
+
+.green{
+    background:#73c52b;
+}
+
+.yellow{
+    background:#f3b400;
+}
+
+.red{
+    background:#f36d6d;
+}
+
+@media(max-width:768px){
+    .glance-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+@media(max-width:480px){
+    .glance-grid{
+        grid-template-columns:1fr;
+    }
+}
+</style>
+</body>
+</html>     
